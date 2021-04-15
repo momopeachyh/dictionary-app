@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary() {
@@ -8,11 +9,16 @@ export default function Dictionary() {
     setSearchterm(event.target.value);
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    alert(searchterm);
+  function handleResponse(response) {
+    console.log(response.data);
   }
 
+  function handleSubmit(event) {
+    event.preventDefault();
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${searchterm}`;
+    axios.get(apiUrl).then(handleResponse);
+    alert(searchterm);
+  }
   return (
     <div className="Dictionary">
       <form onSubmit={handleSubmit}>
