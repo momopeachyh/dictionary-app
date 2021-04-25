@@ -1,19 +1,17 @@
 section {
-  margin: 10px 0px 0px;
-}
-
-.Definition,
-.Example {
-  margin-bottom: 15px;
+  margin: 10px 0px 20px;
 }
 
 .Definition {
-  font-size: 14px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .Example {
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .Part-of-speech {

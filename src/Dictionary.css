@@ -1,3 +1,25 @@
 form {
-  margin: 30px auto;
+  margin: 20px auto;
+}
+
+input {
+  border-radius: 6px;
+}
+
+.btn {
+  background: #0f596d;
+  border: 1px solid #0f596d;
+  border-radius: 6px;
+  color: #f9ede5e6;
+  width: 75px;
+  padding: 6px 6px;
+  position: relative;
+  right: 24px;
+}
+
+.btn:hover {
+  background: rgba(15, 89, 109, 0.8);
+  border: rgba(15, 89, 109, 0.8);
+  color: #f9ede5e6;
+  outline: none;
 }

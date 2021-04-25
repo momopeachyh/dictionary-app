@@ -1,6 +1,7 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
 import Footer from "./Footer";
+import Header from "./Header";
 import "./App.css";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="card">
-          <header className="App-header"></header>
+          <Header />
           <Dictionary />
           <Footer />
         </div>
