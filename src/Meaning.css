@@ -1,0 +1,19 @@
+section {
+  margin: 10px 0px 0px;
+}
+
+.Definition,
+.Example {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.Example {
+  font-style: italic;
+}
+
+.Part-of-speech {
+  font-size: 22px;
+  margin: 0px;
+}

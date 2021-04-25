@@ -1,0 +1,11 @@
+body {
+  background-image: url("scrabbletiles.jpg");
+  background-size: 1000px 1200px;
+}
+
+.card {
+  border-radius: 10px;
+  margin: 20px auto 5px;
+  max-width: 650px;
+  padding: 20px 50px;
+}

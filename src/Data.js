@@ -6,7 +6,7 @@ export default function Data(props) {
   if (props.data) {
     return (
       <div className="Data">
-        <h2 className="word">{props.data.word}</h2>
+        <h1 className="word">{props.data.word}</h1>
         {props.data.phonetics.map(function (phonetics, index) {
           return (
             <div key={index}>
@@ -14,6 +14,7 @@ export default function Data(props) {
             </div>
           );
         })}
+        <hr></hr>
 
         {props.data.meanings.map(function (meaning, index) {
           return (
