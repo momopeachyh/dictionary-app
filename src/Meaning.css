@@ -4,16 +4,20 @@ section {
 
 .Definition,
 .Example {
-  font-size: 14px;
-  line-height: 1.5;
   margin-bottom: 15px;
 }
 
+.Definition {
+  font-size: 14px;
+}
+
 .Example {
+  font-size: 12px;
   font-style: italic;
 }
 
 .Part-of-speech {
+  color: #0f596d;
   font-size: 22px;
   margin: 0px;
 }

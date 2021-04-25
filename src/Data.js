@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
+import "./Data.css";
 
 export default function Data(props) {
   if (props.data) {

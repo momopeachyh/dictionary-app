@@ -10,8 +10,8 @@ function App() {
         <div className="card">
           <header className="App-header"></header>
           <Dictionary />
+          <Footer />
         </div>
-        <Footer />
       </div>
     </div>
   );
