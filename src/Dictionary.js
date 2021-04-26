@@ -15,6 +15,7 @@ export default function Dictionary() {
     setData(response.data[0]);
   }
 
+  // dictionary api documentation: https://dictionaryapi.dev/
   function handleSubmit(event) {
     event.preventDefault();
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${searchterm}`;
