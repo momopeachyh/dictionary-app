@@ -1,5 +1,5 @@
 form {
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 input {
@@ -18,8 +18,8 @@ input {
 }
 
 .btn:hover {
-  background: rgba(53, 73, 94, 0.8);
-  border: rgba(53, 73, 94, 0.8);
+  background: #ff7e67;
+  border: #ff7e67;
   color: #f9ede5e6;
   outline: none;
 }
