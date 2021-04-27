@@ -7,8 +7,8 @@ input {
 }
 
 .btn {
-  background: #0f596d;
-  border: 1px solid #0f596d;
+  background: #35495e;
+  border: 1px solid #35495e;
   border-radius: 6px;
   color: #f9ede5e6;
   width: 75px;
@@ -18,8 +18,8 @@ input {
 }
 
 .btn:hover {
-  background: rgba(15, 89, 109, 0.8);
-  border: rgba(15, 89, 109, 0.8);
+  background: rgba(53, 73, 94, 0.8);
+  border: rgba(53, 73, 94, 0.8);
   color: #f9ede5e6;
   outline: none;
 }

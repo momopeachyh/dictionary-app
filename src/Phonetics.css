@@ -1,9 +1,10 @@
 button {
   border: none;
   background: none;
+  color: #35495e;
   transition: all 150ms ease-in-out;
 }
 
 button:hover {
-  color: #0f596d;
+  color: rgba(53, 73, 94, 0.8);
 }

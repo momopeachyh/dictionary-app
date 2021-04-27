@@ -7,9 +7,8 @@ export default function Footer() {
       <a href="https://github.com/momopeachyh/dictionary-app">
         Open-source code
       </a>{" "}
-      by Heidi Willden. Photo by{" "}
-      <a href="https://unsplash.com/@sure_mp"> Surendran MP</a> on{" "}
-      <a href="https://unsplash.com/">Unsplash</a>
+      by Heidi Willden. Photos from{" "}
+      <a href="https://www.pexels.com">Pexel.com</a>
     </div>
   );
 }
