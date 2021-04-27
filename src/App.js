@@ -10,7 +10,7 @@ function App() {
       <div className="container">
         <div className="card">
           <Header />
-          <Dictionary defaultTerm="lexicography" />
+          <Dictionary defaultTerm="welcome" />
           <Footer />
         </div>
       </div>
